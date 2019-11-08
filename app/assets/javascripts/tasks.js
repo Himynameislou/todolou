@@ -38,8 +38,7 @@ $(function() {
       htmlString += taskHtml(task);
     });
     var ulTodos = $('.todo-list');
-    ulTodos.html(htmlString);
-
+    ulTodos.append(htmlString);
     $('.toggle').change(toggleTask);
 
   });
@@ -58,6 +57,7 @@ $(function() {
       var ulTodos = $('.todo-list');
       ulTodos.append(htmlString);
       $('.toggle').click(toggleTask);
+      $('.new-todo').val('');
     });
   });
 
