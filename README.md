@@ -1,24 +1,16 @@
-# README
+# TODO Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Fluid user interface that uses JavaScript, that allows users to rapidly add dynamic content.
 
-Things you may want to cover:
+## Technology Used:
 
-* Ruby version
+* Rails
 
-* System dependencies
+* JavaScript
 
-* Configuration
+* CSS
 
-* Database creation
+* Ruby
 
-* Database initialization
+* Algorithms
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
